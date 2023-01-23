@@ -1,0 +1,26 @@
+:root {
+  --primary: hsl(300, 43%, 22%);
+  --secondary: hsl(333, 80%, 67%);
+  --darkgrey: hsl(303, 10%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --lightgrey: hsl(300, 24%, 96%);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+.layer {
+  position: relative;
+}
+
+.upper {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+}
